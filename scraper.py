@@ -28,6 +28,7 @@ for city in List_of_cities:
 
             except:
                 company_name = None
+                #bleh
             try:
                 addressPhoneBlock = company_data.find(
                     'address', class_='col-md-8 col-xs-8')
